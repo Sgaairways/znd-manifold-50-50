@@ -1,0 +1,9 @@
+Query T1=351.5 K, P1=4.64 atm
+Truth: znd_tp_profiles/truth_target_T0351.50_P04.640.npz
+Truth metadata: T1=351.5, P1=4.64
+Common x: 0.0 to 0.05142462229587833 m
+
+Corner (342.857143, 4.6): weight=0.236999998740, file=znd_tp_profiles/znd_T0342.86_P04.60.npz, metadata T=342.857142857, P=4.6
+Corner (357.142857, 4.6): weight=0.363000001260, file=znd_tp_profiles/znd_T0357.14_P04.60.npz, metadata T=357.142857143, P=4.6
+Corner (342.857143, 4.7): weight=0.157999999160, file=znd_tp_profiles/znd_T0342.86_P04.70.npz, metadata T=342.857142857, P=4.7
+Corner (357.142857, 4.7): weight=0.242000000840, file=znd_tp_profiles/znd_T0357.14_P04.70.npz, metadata T=357.142857143, P=4.7
