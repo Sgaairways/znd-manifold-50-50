@@ -96,33 +96,13 @@ The temperature maps are displayed over a 0–5 mm window and the pressure maps 
 
 The current progression is:
 
-[
-8 	imes 50 	ext{ baseline}
-ightarrow
-50 	imes 50 	ext{ refinement}
-ightarrow
-	ext{sampling-strategy study}
-ightarrow
-	ext{fast JAX lookup}
-]
+**8 × 50 baseline → 50 × 50 refinement → sampling-strategy study → fast JAX lookup**
 
 The next question is whether **irregular, random, nonuniform, or adaptive sampling** can reconstruct the same full ZND profile manifold with fewer expensive SDToolbox solutions.
 
 Longer term, the goal is to provide fast profile lookup for downstream heat-transfer and cooling optimization:
 
-[
-(T_1,P_1,phi)
-ightarrow
-	ext{ZND profile lookup}
-ightarrow
-T(x),p(x),Y_i(x)
-ightarrow
-	ext{thermal boundary conditions}
-ightarrow
-	ext{heat-transfer / cooling model}
-ightarrow
-	ext{optimization}
-]
+**Initial state (T₁, P₁, φ) → ZND profile lookup → T(x), p(x), Yᵢ(x) → thermal boundary conditions → heat-transfer / cooling model → optimization**
 
 ## Related repository
 
